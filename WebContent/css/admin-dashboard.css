@@ -1,0 +1,92 @@
+#wrapper 
+{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#wrapper #content-wrapper {
+  overflow-x: hidden;
+  width: 100%;
+  padding-top: 1rem;
+/*  padding-bottom: 80px;*/
+   margin-left: 225px;
+}
+
+.o-hidden {
+  overflow: hidden !important;
+}
+
+
+.sidenav 
+ {
+  /* min-height: calc(100% - 500px);*/
+    /*height: 112%;*/
+   width: 235px !important;
+   background-color:#00aced;#f1f1f1;
+   position: absolute;
+   padding-bottom: 150px;
+  }
+
+ /* Style the sidenav links and the dropdown button */
+ .sidenav a, .dropdown-btn 
+{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover {
+  color:white; #00aced;;
+}
+
+
+  .account-info
+  {
+    font-size: 40px;
+    color:#00aced;
+  }  
+  .profile-btn
+  {
+    display: inline-block;
+  min-width: 196px;
+  text-align: center;
+  border: 2px solid #00aced;
+  padding: 15px 10px;
+  font-weight: 100;
+  font-size: 16px;
+  border-radius: 28px;
+  position: relative;
+  color:#00aced;
+  cursor: pointer;
+  margin-left: 250px;
+  }
+    
+    .label-profile
+    {
+       font-size: 20px;
+    color:#00aced;
+    }
+
+  .profile-btn:hover
+    {
+      background-color:#00aced;
+      color: white;
+
+    }
+    .star-red
+    {
+      color: red;
+      font-size: 20px;
+      margin-left:15px;
+
+    }
